@@ -3,8 +3,7 @@
 //Algorithms - Sorting
 //Author: derekhh
 
-#include<iostream>
-#include<climits>
+#include<bits/stdc++.h>
 using namespace std;
 
 int L[100000], R[100000], val[100000];
