@@ -21,9 +21,9 @@ int main()
 		int x, y;
 		cin >> x >> y;
 		if ((x + 1 <= n) && (A[x + 1] == 0) && (x != y))
-			cout << "Odd" << endl;
+			cout << "Odd" << "\n";
 		else
-			cout << (A[x] % 2 == 0 ? "Even" : "Odd") << endl;
+			cout << (A[x] % 2 == 0 ? "Even" : "Odd") << "\n";
 	}
 	return 0;
 }
